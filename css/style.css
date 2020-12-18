@@ -16,9 +16,6 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
-@font-face{
-    font-family: '';
-}
 
 @font-face{
     font-family: 'MyriadPro';
@@ -29,6 +26,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .main {
         min-height: 1080px;
         background: url(/img/bg_header.png)0 0/cover no-repeat;
+        text-align: center
     }
     
     .main__content {
@@ -76,12 +74,33 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         color: #ffffff;
     }
 
-    .main__link {
-
-    }
-
     .mainmenu {
+        min-height: 58px;
+        display: flex;
+        justify-content: center;
+        
     }
     .mainmenu__row {
+        width: 422px;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        
+        
+    }
+    .mainmenu__row a{
+        font-family: Lato;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #3c3c3c;
+    }
+    .mainmenu__row a:first-child{
+        font-family: Lato;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #ada074;
+        
     }
 
