@@ -140,9 +140,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .about__row {
         padding: 100px 0 0 0;
         display: flex;
-        max-width: 825px;
+        width: 825px;
         justify-content: space-between;
-        
     }
     .about__column {
         display: flex;
@@ -172,7 +171,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding: 0 50px 0 50px;
     }
     .about__column:nth-child(3) {
-        padding: 0 10px 0 0;
+        padding: 0 38px 0 0;
     }
    
 
