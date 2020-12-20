@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         min-height: 1080px;
         background: url(/img/bg_header.png)0 0/cover no-repeat;
         text-align: center
+        
     }
     
     .main__content {
@@ -189,8 +190,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         text-transform: uppercase;
         letter-spacing: 0.16em;
     }
-    .about__underline {
-    }
+    
     .portfolio__mainmenu {
         padding: 48px 0 134px 0;
         display: flex;
