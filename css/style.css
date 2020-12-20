@@ -142,6 +142,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         display: flex;
         width: 825px;
         justify-content: space-between;
+        
     }
     .about__column {
         display: flex;
@@ -250,15 +251,41 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         min-height: 385px;
         background-image: url(/img/bg_footer.png);
         background-size: cover;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    
     .band__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .band__title {
+        font-family: Lato;
+        font-size: 30.4px;
+        line-height: 1.2;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+        padding: 0 0 90px 0;
     }
     .band__iconrow {
+        max-width: 582px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
+    
     .band__item {
+        padding: 0 105px 0 0;
     }
+    .band__item:last-child {
+        padding: 0;
+    }
+
    
 
