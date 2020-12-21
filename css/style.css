@@ -305,10 +305,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .form{
         padding: 117px 0 0 0;
-        display: flex;
+        display: inline-flex;
         flex-wrap: wrap;
         max-width: 715px;
-        justify-content: space-between;
+        
     }
     .form__row {
         font-size: 14px;
@@ -321,6 +321,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         max-height: 348px;
         display: flex;
         flex-wrap: wrap;
+        margin: 0 77px 0 0;
 
     }
     .form__name{
@@ -378,4 +379,38 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         color: black;
         display: inline-block;
         text-align: center;
+    }
+    .footer {
+        min-height: 274px;
+        background-color: #3c3c3c;
+        text-align: center;
+    }
+    .footer__logo {
+        padding: 45px 0 38px 0;
+    }
+    .footer__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 25px 0;
+    }
+    .footer__item{
+        min-width: 263px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer__item a{
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #a4a4a4;
+    }
+    .arr {
+        font-family: 'MyriadPro';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #6c6c6c;
     }
