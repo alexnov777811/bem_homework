@@ -287,5 +287,67 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding: 0;
     }
 
-   
-
+    .contact {
+        min-height: 825px;
+        text-align: center;
+        font-family: Lato;
+        
+    }
+    .contact__title {
+        padding: 180px 0 12px 0;
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: #000000; 
+    }
+    .contact__row{
+        padding: 117px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 715px;
+        justify-content: center;
+    }
+    .contact__form {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+    .contact__name {
+    }
+    .contact__email {
+    }
+    .contact__messege {
+    }
+    .contact__send {
+    }
+    .contact__text {
+        width: 254px;
+        height: 194px;
+        text-align: left;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .contact__text p:nth-child(2){
+        font-weight: 700;
+        padding: 35px 0 21px 0;
+    }
+    .contact__text span{
+        font-weight: 700;
+    }
+    .contact__text a{
+        font-weight: 700;
+        width: 29px;
+        height: 29px;
+        border: 2px solid #1e1e1e;
+        border-radius: 50%;
+        color: black;
+        display: inline-block;
+        text-align: center;
+    }
