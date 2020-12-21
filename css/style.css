@@ -292,6 +292,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         text-align: center;
         font-family: Lato;
         
+        
     }
     .contact__title {
         padding: 180px 0 12px 0;
@@ -302,28 +303,55 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         letter-spacing: 0.16em;
         color: #000000; 
     }
-    .contact__row{
+    .form{
         padding: 117px 0 0 0;
         display: flex;
         flex-wrap: wrap;
         max-width: 715px;
-        justify-content: center;
+        justify-content: space-between;
     }
-    .contact__form {
+    .form__row {
         font-size: 14px;
         line-height: 1.2;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.06em;
         color: #000000;
+        max-width: 383px;
+        max-height: 348px;
+        display: flex;
+        flex-wrap: wrap;
+
     }
-    .contact__name {
+    .form__name{
+        text-align: left;
+        margin: 0 55px 72px 0;
     }
-    .contact__email {
+    .form__name input{
+        width: 161px;
+        height: 35px;
+        background-color: #f8f7f7;  
     }
-    .contact__messege {
+    .form__email{
+        text-align: left;
     }
-    .contact__send {
+    .form__email input{
+        width: 161px;
+        height: 35px;
+        background-color: #f8f7f7;  
+    }
+    .form__messege textarea{
+        width: 383px;
+        height: 118px;
+        background-color: #f8f7f7;
+    }
+    .form__messege{
+        text-align: left;
+        margin: 0 0 55px 0;
+    }
+    .form__send input{
+        margin: 0 0 0 340px;
+        font-weight: 700;
     }
     .contact__text {
         width: 254px;
